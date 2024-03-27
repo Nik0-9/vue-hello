@@ -5,13 +5,19 @@ createApp({
         return{
             title: 'Hello Vue!',
             secondTitle: '<h2>this is h2 Hello Vue! </h2>',
-            image1: 'img/vue.jpeg',
-            alt1: 'image vue',
+            images:[{
+                src:'img/vue.jpeg',
+                alt: 'image vue'
+            },
+            {
+                src:'img/Vue2.webp',
+                alt: 'image vue'
+            }],
             image2: '<img src="img/Vue2.webp" alt="image vue 2">',
-            alt2: 'imgae 2 vue'
+            myImgBackground: 'img-background',
+            dNone: 'd-none',
+            dBlock: 'd-block'
         }
-    },
-    methods: {
-
     }
+    
 }).mount('#app');

@@ -13,12 +13,13 @@
 </head>
 <body>
     <div id="app" class="text-center">
-       <h1> {{title}} </h1>
-       <div v-html="secondTitle"></div>
-       <img :src="image1" :alt="alt1">
-       <div v-html="image2">
-        
-       </div>
+        <div class="">
+            <h1> {{title}} </h1>
+            <div v-html="secondTitle"></div>
+            <img :src="images[0].src" :alt="images.alt">
+            <img :src="images[1].src" :alt="images.alt">
+            </div>
+        </div>
     </div>
     
 </body>

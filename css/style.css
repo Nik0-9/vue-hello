@@ -4,3 +4,7 @@ body{
 img{
     width: 80vw;
 }
+
+.img-background{
+    background-image: url('../img/vue.jpeg');
+}
